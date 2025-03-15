@@ -2,11 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-}
-
-@media (prefers-color-scheme: dark) {
-}
-
-body {
+@layer base {
+  a {
+    @apply text-yellow-500;
+  }
 }

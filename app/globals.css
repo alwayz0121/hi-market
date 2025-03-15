@@ -7,3 +7,9 @@
     @apply text-yellow-500;
   }
 }
+
+@layer components {
+  .primary-btn {
+    @apply w-full text-white bg-yellow-500 font-medium rounded-md text-center hover:bg-pink-400 transition-colors;
+  }
+}
